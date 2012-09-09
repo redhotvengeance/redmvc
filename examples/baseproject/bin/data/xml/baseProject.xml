@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<baseProject>
+	<application>
+		<embeddedFonts>true</embeddedFonts>
+	</application>
+	<sections>
+		<section id="section" active="true" visible="false">
+			<preload>
+				<item id="sectionItem">
+					<fileURL preload="true">file1ToPreload</fileURL>
+				</item>
+			</preload>
+			<square>
+				<color>0xff0000</color>
+			</square>
+		</section>
+	</sections>
+	<components>
+		<component id="globalElements">
+			<fileURL preload="true">file2ToPreload</fileURL>
+		</component>
+		<component id="menu">
+			<fileURL preload="true">file3ToPreload</fileURL>
+		</component>
+	</components>
+</baseProject>
