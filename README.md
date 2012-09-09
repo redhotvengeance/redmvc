@@ -14,7 +14,7 @@ RedMVC is a relatively non-opinionated, practically invisible Model-View-Control
 
 RedMVC is essentially a framework woven from helper utilities. It expects you to bring your own model (with VO's), view (with components), and controller (with commands). RedMVC provides interfaces for each of these elements so they can take advantage of the functionality the framework provides.
 
-The fastest way to get started is by taking a look at the base project in the examples folder.
+The fastest way to get started is by taking a look at the [baseproject](https://github.com/redhotvengeance/redmvc/tree/master/examples/baseproject) in the [examples](https://github.com/redhotvengeance/redmvc/tree/master/examples) folder.
 
 ## ApplicationManager
 
